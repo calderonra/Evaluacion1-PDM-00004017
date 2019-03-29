@@ -13,7 +13,7 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-
+        mSend=findViewById(R.id.share);
         mUser=findViewById(R.id.usuario2);
         mPass=findViewById(R.id.contra2);
         mTotal=findViewById(R.id.total);
@@ -47,9 +47,20 @@ public class Main2Activity extends AppCompatActivity {
         mContador9.setText(mIntent.getStringExtra(AppConstant.CONTA9));
 
 
+        mSend.setOnClickListener(v ->{
 
+            String usuario = mUser.getText().toString();
+            String correo = mPass.getText().toString();
 
+            Intent newIntent= new Intent();
 
+            newIntent.setType("text/plain");
+
+            newIntent.setAction(Intent.ACTION_SEND);
+
+            newIntent.putExtra(AppConstant.USER_KEY,usuario);
+
+        });
 
 
     }
