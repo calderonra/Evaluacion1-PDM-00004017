@@ -197,7 +197,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/user"
-            android:text="@string/text_usu"
+            android:hint="@string/text_usu"
             />
     </LinearLayout>
     <LinearLayout
@@ -219,7 +219,7 @@
             android:id="@+id/pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="example@uca.edu.sv"/>
+            android:hint="example@uca.edu.sv"/>
     </LinearLayout>
 
     <LinearLayout
