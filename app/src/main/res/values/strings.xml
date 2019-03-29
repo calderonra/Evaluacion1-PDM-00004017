@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Evaluacion1</string>
+    <string name="text_usu">Usuario</string>
+    <string name="text_contra">Ingrese contrasena</string>
+    <string name="valor1">0</string>
+    <string name="valor2">0</string>
+    <string name="valor3">0</string>
+    <string name="valor4">0</string>
+    <string name="valor5">0</string>
+    <string name="valor6">0</string>
+    <string name="valor7">0</string>
+    <string name="valor8">0</string>
+    <string name="valor9">0</string>
+    <string name="act2_usuario">Usuario:</string>
+    <string name="act2_correo">correo:</string>
+    <string name="total_productos">Total productos</string>
+</resources>

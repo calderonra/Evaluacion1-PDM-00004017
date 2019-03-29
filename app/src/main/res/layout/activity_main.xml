@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contador de productos"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3">
+
+
+        <LinearLayout
+            android:id="@+id/boton1"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="bottom1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producto1"
+                />
+            <TextView
+                android:id="@+id/texto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor1"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/boton2"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producto2"
+                />
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/boton3"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producto3"
+                />
+            <TextView
+                android:id="@+id/texto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/boton4"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producto4"
+                />
+            <TextView
+                android:id="@+id/texto4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor4"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/boton5"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producto5"
+                />
+            <TextView
+                android:id="@+id/texto5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor5"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/boton6"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producto6"
+                />
+            <TextView
+                android:id="@+id/texto6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor6"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/boton7"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producto7"
+                />
+            <TextView
+                android:id="@+id/texto7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor7"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/boton8"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producto8"
+                />
+            <TextView
+                android:id="@+id/texto8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor8"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/boton9"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Producto9"
+                />
+            <TextView
+                android:id="@+id/texto9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor9"/>
+        </LinearLayout>
+
+
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:textSize="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user"
+            android:text="@string/text_usu"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresa tu correo!"
+            android:textSize="25dp"/>
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="example@uca.edu.sv"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
