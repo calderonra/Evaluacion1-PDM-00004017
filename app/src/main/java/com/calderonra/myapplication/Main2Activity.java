@@ -59,6 +59,8 @@ public class Main2Activity extends AppCompatActivity {
             newIntent.setAction(Intent.ACTION_SEND);
 
             newIntent.putExtra(AppConstant.USER_KEY,usuario);
+            startActivity(newIntent);
+
 
         });
 
